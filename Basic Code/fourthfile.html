@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><!-- Insert your title here --></title>
+</head>
+<body>
+    
+    <!-- general structure of html form -->
+    <form>
+        <label for="firstname">First name: </label>
+        <input type="text" name="firstname"  required>
+        <br>
+        <label for="lastname">Last name: </label>
+        <input type="text" name="lastname"  required>
+        <br>
+        <label for="email">email: </label>
+        <input type="email" name="email"  required>
+        <br>
+        <label for="password">password: </label>
+        <input type="password" name="password"  required>
+        <br>
+        <input type="submit" value="Login or  submit!">
+    </form>
+
+    <hr>
+    <form>
+        <!-- id kena unik -->
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" id="firstname">
+        <br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" id="lastname">
+        <br>
+        <!-- normal button (nothing happen need javacode)-->
+        <button type="button">Click me la</button>
+
+        <br>
+        <!-- submit button will sent the data into back end server -->
+        <button type="submit">Submit</button>
+
+        <br>
+        <!-- reset button will clear the content of the text field -->
+        <button type="reset">Reset</button>
+
+    </form>
+    
+
+</body>
+</html>

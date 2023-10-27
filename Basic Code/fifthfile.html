@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><!-- Insert your title here --></title>
+</head>
+<body>
+    
+    <!-- dropdown list -->
+        <label for="pets">Pets:</label>
+    <select id="pets">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="rat">Rat</option>
+        <option value="sbake">Snake</option>
+    </select>
+
+    
+<!-- nested dropdown list (uncommon used) -->
+<hr>
+<label for="pets">Pets:</label>
+<select id="pets">
+    <optgroup label="Mammals">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+    </optgroup>
+    <optgroup label="Insects">
+        <option value="spider">Spider</option>
+        <option value="ants">Ants</option>
+    </optgroup>
+    <optgroup label="Fish">
+        <option value="goldfish">Goldfish</option>
+    </optgroup>
+</select>
+
+
+<!-- text area -->
+<hr>
+<textarea rows="10" cols="30"> Type something…</textarea>
+
+<!-- field set (create box) -->
+<hr>
+<form >
+    <fieldset>
+        <legend>Name about your cat</legend> <!-- legend tag -->
+        <label for="firstname">First name:</label><br>
+        <input type="text" id="firstname" name="fname"><br>
+        <label for="lastname">Last name:</label><br>
+        <input type="text" id="lastname" name="lname"><br>
+    </fieldset>
+</form>
+
+<!-- datalist (same is dropdownlist uncommon) -->
+<hr>
+<label for="country-choice">Choose a country:</label>
+<input list="country-options" id="country-choice" name="country-choice">
+<datalist id="country-options">
+    <option value="Australia">
+    <option value="Austria">
+    <option value="America">
+    <option value="Nepal">
+</datalist>
+
+
+</body>
+</html>
