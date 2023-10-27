@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><!-- Insert your title here --></title>
+</head>
+<body>
+    <h1> This is large</h1>
+    <h2> This is smaller</h2>
+
+    <p>I like walking <br> my dog <br> every day</p>
+
+    <hr>
+    <p>There are 3 nice cars: Honda &nbsp;&nbsp;&nbsp; Toyota &nbsp;&nbsp;Nissan</p>
+    <hr>
+
+    <p>This is how to write a loop in JavaScript</p>
+
+    <pre>
+        for ( let i = 0 ; i < 5 ; i++ )
+            Console.log(i);
+    </pre>
+
+    <p> I love JavaScript !</p>
+
+    <p> <em>Javascript</em> is the most <mark>important</mark> language <ins>you will learn</ins></p>
+
+<p><strong>Pythogaras theorem</strong></p>
+
+<pre>x<sup>2</sup>+ y<sup>2</sup> = z<sup>2</sup></pre>
+</body>
+</html>
