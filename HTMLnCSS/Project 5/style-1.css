@@ -1,0 +1,50 @@
+
+/* #back #ccc{
+color:green;
+
+} */
+
+#back{
+    background-color: #e1ffff;
+}
+p div{
+    color: red;
+
+}
+ 
+#red{
+    color:#88000a;;
+    font-size: 10px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size:10px;
+
+}
+
+
+#yellow
+{
+    background-color: #fafad4;
+
+}
+div #center{
+    font-size: 11px;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+div #smaller{
+    font-size: 11px;
+    text-align: right;
+}
+#smaller span {
+    text-decoration: line-through;
+}
+#monotext{
+    background-color: #e1ffff;
+    font-family: monospace;
+   text-indent: 60px;
+   letter-spacing:0.4em;
+   font-size:10px ;
+}
