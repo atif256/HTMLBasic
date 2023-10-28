@@ -1,0 +1,48 @@
+body {
+    background: lightyellow;
+    font: 18px Arial, sans-serif;
+}
+
+h1 {
+    color: orange;
+}
+
+h2{
+    color:blue;
+}
+/* # id selector (unique) */
+#red {
+    color:rgb(231, 12, 12);
+}
+/* . class selector (more than two) */
+
+p.darkgreen{
+    color:darkgreen;
+}
+
+h1 em{
+    color:blue;
+}
+
+/* (desecdent)not using direct selector */
+div em{
+    color:grey;
+}
+
+/* adjacent sibling selector */
+h1+p{
+    color:rgb(32, 205, 211);
+}
+
+/* only one p after div will change */
+div.purple + p {
+    color:purple;
+}
+
+
+/* general sibling selector (all p after div will change) */
+/* div.purple ~ p {
+    color:purple;
+} */
+
+
