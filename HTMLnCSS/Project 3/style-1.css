@@ -1,0 +1,26 @@
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+p.normal {
+    font-style: normal;
+}
+p.italic {
+    font-style: italic;
+}
+p.oblique {
+    font-style: oblique;
+}
